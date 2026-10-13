@@ -1,0 +1,27 @@
+# Betriebssystem und lokale Werkzeuge
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Lokale Konfiguration
+.env
+.env.*
+!.env.example
+
+# Aus dem MongoDB-Seed erzeugte Dateien
+/kunden.jsonl
+/produkte.jsonl
+/bestellungen.jsonl
+
+# Neue Messungen; die dokumentierte Referenz liegt in results/
+/bench_results.csv
+
+# Lokaler Wissensgraph
+graphify-out/

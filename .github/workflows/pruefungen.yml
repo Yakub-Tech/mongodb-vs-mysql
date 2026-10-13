@@ -1,0 +1,40 @@
+name: Statische Prüfungen
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dateien:
+    name: Syntax und Dokumentationslinks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Python-Syntax
+        run: python3 -m py_compile benchmark.py summarize.py
+      - name: Bash-Syntax
+        run: bash -n run_benchmark.sh
+      - name: JavaScript-Syntax
+        run: node --check convert_seed.js
+      - name: Lokale Dokumentationslinks und Bilder
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          import re
+          for path in [*Path('.').glob('*.md'), *Path('docs').glob('*.md')]:
+              for target in re.findall(r'\]\(([^)]+)\)', path.read_text()):
+                  if '://' in target or target.startswith('#'):
+                      continue
+                  target = target.split('#', 1)[0]
+                  if not (path.parent / target).is_file():
+                      raise SystemExit(f'Fehlender Link in {path}: {target}')
+          print('Alle lokalen Dokumentationslinks und Bilder vorhanden.')
+          PYCODE

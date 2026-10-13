@@ -1,0 +1,154 @@
+MySQL-vs-MongoDB-Lizenz: kostenlose Nutzung, kein Softwareverkauf
+Version 1.0
+Copyright (c) 2026 Yakub Uyar
+
+DEUTSCH
+
+1. Geltungsbereich
+
+Diese Bedingungen gelten für den eigenen Quellcode, die eigene Dokumentation,
+Testdaten und eigenen Aufnahmen, die Yakub Uyar in diesem Projekt bereitstellt.
+Bibliotheken, Datenbankserver und sonstige Bestandteile Dritter behalten ihre
+eigenen Lizenzen. Deren Rechte und Pflichten werden nicht ersetzt oder beschränkt.
+Die Bedingungen gelten nicht rückwirkend für gegebenenfalls bereits wirksam unter
+anderen Bedingungen eingeräumte Rechte.
+
+2. Erlaubte Nutzung
+
+Sie dürfen das Projekt kostenlos ansehen, herunterladen, ausführen, kopieren und
+für den eigenen Einsatz anpassen. Vereine und Unternehmen dürfen es für ihre eigene
+Arbeit einsetzen. Umsätze aus eigenen Waren oder eigenen sonstigen Tätigkeiten,
+die lediglich mit Hilfe der Software unterstützt werden, sind erlaubt.
+
+Sie dürfen das Projekt und angepasste Versionen kostenlos weitergeben, wenn Sie den
+Quellcode der weitergegebenen Version, diese Bedingungen und die erforderlichen
+Urheber- und Herkunftshinweise mitliefern. Änderungen müssen kenntlich gemacht
+werden. Für die übernommenen und angepassten eigenen Projektbestandteile bleiben
+diese Bedingungen erhalten. Die hier erlaubte kostenlose Nutzung darf nicht durch
+zusätzliche Bedingungen eingeschränkt werden.
+
+3. Softwareverkauf und kostenpflichtige Softwaredienste
+
+Ohne vorherige ausdrückliche Erlaubnis von Yakub Uyar dürfen Sie die Software oder
+abgeleitete Versionen nicht verkaufen, gegen Entgelt lizenzieren oder weitergeben.
+Auch kostenpflichtiger Zugang, kostenpflichtiges Bereitstellen als Softwaredienst
+und die Einbindung der eigenen Projektbestandteile in kostenpflichtige
+Softwareangebote bedürfen dieser Erlaubnis.
+
+Dieses Verbot betrifft die Vermarktung der Software, nicht Umsätze aus der eigenen
+Arbeit gemäß Abschnitt 2. Es beschränkt weder Rechte an unabhängigem fremdem Code
+noch gesetzlich zwingende Rechte. Insbesondere ein zwingend anwendbarer
+Erschöpfungsgrundsatz bleibt unberührt.
+
+4. Verantwortung, Gewährleistung und Haftung
+
+Die Nutzung erfolgt auf eigene Verantwortung. Das Projekt wird kostenlos im
+vorhandenen Zustand bereitgestellt. Wartung, Unterstützung, eine bestimmte
+Eignung und eine bestimmte Funktionsfähigkeit werden nicht zugesagt.
+Eine Gewährleistung wird nur ausgeschlossen, soweit dies gesetzlich zulässig ist.
+
+Vor realer Nutzung müssen die Betreiber Code und Anwendung auf Eignung,
+Funktionsfähigkeit, Sicherheit, Datenschutz und einschlägige Anforderungen prüfen.
+Sie sind für Einrichtung, Betrieb, Zugriffsrechte, Datensicherung und
+Wiederherstellung verantwortlich. Die Beispielkonfiguration ist ausschließlich
+für lokale Testdatenbanken vorgesehen und stellt keine produktive Absicherung dar.
+
+Für Schäden aus Nutzung oder Nichtnutzbarkeit wird die Haftung nur im gesetzlich
+zulässigen Umfang ausgeschlossen. Dieser Ausschluss gilt insbesondere nicht für
+Vorsatz, grobe Fahrlässigkeit, schuldhafte Verletzungen von Leben, Körper oder
+Gesundheit, zwingende Produkthaftung oder sonstige zwingende gesetzliche Haftung.
+Soweit eine wesentliche Vertragspflicht verletzt wird und ein Ausschluss deshalb
+unzulässig ist, bleibt die gesetzlich erforderliche Haftung bestehen. Zwingende
+Rechte wegen arglistig verschwiegener Mängel oder einer ausdrücklich übernommenen
+Garantie bleiben ebenfalls unberührt.
+
+5. Weitere Rechte und Sprachfassungen
+
+Gesetzlich zwingende Rechte, insbesondere notwendige Sicherungskopien,
+gesetzlich erlaubte Untersuchung und Dekompilierung, bleiben unberührt.
+Weitergehende eigene Nutzungsrechte erfordern eine ausdrückliche Vereinbarung
+mit Yakub Uyar. Diese eingeschränkten Bedingungen sind keine Open-Source-Lizenz
+nach der Definition der Open Source Initiative.
+
+Die englische Fassung dient der Verständlichkeit. Bei Abweichungen ist die deutsche
+Fassung maßgeblich, soweit rechtlich zulässig. Es wird keine anwaltlich geprüfte
+oder für sämtliche Rechtsordnungen bestätigte Wirksamkeit zugesichert.
+
+
+ENGLISH
+
+MySQL-vs-MongoDB License: free use, no software sale
+Version 1.0
+Copyright (c) 2026 Yakub Uyar
+
+1. Scope
+
+These terms apply to the original source code, documentation, test data and
+captures provided by Yakub Uyar in this project. Libraries, database servers and
+other third-party components retain their own licenses. Their rights and
+obligations are not replaced or restricted. These terms do not retroactively
+revoke rights that may already have been validly granted under different terms.
+
+2. Permitted use
+
+You may view, download, run, copy and adapt the project for your own use free of
+charge. Associations and businesses may use it for their own work. Revenue from
+their own goods or other activities merely supported by the software is permitted.
+
+You may distribute the project and modified versions free of charge if you
+include the source code of the distributed version, these terms and the required
+copyright and attribution notices. Changes must be identified. These terms remain
+in effect for the reused and modified original project components. You may not
+impose additional restrictions on the free use permitted here.
+
+3. Software sale and paid software services
+
+Without prior express permission from Yakub Uyar, you may not sell the software or
+derived versions, license them for a fee or distribute them for a fee. Paid access,
+offering the software as a paid service and including original project components
+in paid software offerings also require this permission.
+
+This prohibition concerns marketing the software, not revenue from your own work
+under section 2. It restricts neither rights in independent third-party code nor
+mandatory statutory rights. In particular, any mandatorily applicable exhaustion
+principle remains unaffected.
+
+4. Responsibility, warranty and liability
+
+Use is at your own risk. The project is provided free of charge, as is. Maintenance,
+support, suitability for a particular purpose and particular functionality are
+not promised. Warranty is excluded only to the extent permitted by law.
+
+Before real use, operators must review the code and application for suitability,
+functionality, security, data protection and applicable requirements. They are
+responsible for setup, operation, access control, backups and restoration. The
+example configuration is intended exclusively for local test databases and does
+not establish production security.
+
+Liability for damage arising from use or inability to use the software is excluded
+only to the extent permitted by law. In particular, the exclusion does not cover
+intentional misconduct, gross negligence, culpable injury to life, body or health,
+mandatory product liability or any other mandatory statutory liability. Where a
+material contractual duty is breached and exclusion is impermissible, liability
+required by law remains in effect. Mandatory rights concerning fraudulently
+concealed defects or an expressly assumed guarantee also remain unaffected.
+
+5. Other rights and language versions
+
+Mandatory statutory rights, including necessary backup copies, legally permitted
+examination and decompilation, remain unaffected. Further rights to the original
+work require an express agreement with Yakub Uyar. These restricted terms are not
+an open-source license under the Open Source Initiative's definition.
+
+The English version is provided for readability. If the versions differ, the
+German version prevails to the extent legally permissible. No legal professional
+review or confirmed enforceability in every jurisdiction is promised.
+
+References for preparation / Grundlagen der Ausarbeitung:
+https://www.gesetze-im-internet.de/bgb/__276.html
+https://www.gesetze-im-internet.de/bgb/__309.html
+https://www.gesetze-im-internet.de/urhg/__69c.html
+https://www.gesetze-im-internet.de/urhg/__69d.html
+https://www.gesetze-im-internet.de/urhg/__69e.html
+https://www.gesetze-im-internet.de/urhg/__69g.html
+https://opensource.org/osd

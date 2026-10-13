@@ -1,0 +1,30 @@
+services:
+
+  # MySQL: lokale Testumgebung
+  mysql:
+    image: mysql:8.0
+    container_name: onlineshop-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: onlineshop
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  # MongoDB: lokale Testumgebung
+  mongodb:
+    image: mongo:7.0
+    container_name: onlineshop-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: onlineshop
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mysql-data:
+  mongo-data:
